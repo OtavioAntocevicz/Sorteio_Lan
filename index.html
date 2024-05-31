@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sorteio dos Times da Lan</title>
+</head>
+
+<body>
+    <h1>Sorteio dos Times da Lan</h1>
+    <div id="potes">
+        <div class="pote" id="pote1">
+            <h2>Pote 1</h2>
+            <input type="text" id="pote1_1" placeholder="Pessoa 1"><br>
+            <input type="text" id="pote1_2" placeholder="Pessoa 2"><br>
+        </div>
+        <div class="pote" id="pote2">
+            <h2>Pote 2</h2>
+            <input type="text" id="pote2_1" placeholder="Pessoa 1"><br>
+            <input type="text" id="pote2_2" placeholder="Pessoa 2"><br>
+        </div>
+        <div class="pote" id="pote3">
+            <h2>Pote 3</h2>
+            <input type="text" id="pote3_1" placeholder="Pessoa 1"><br>
+            <input type="text" id="pote3_2" placeholder="Pessoa 2"><br>
+        </div>
+        <div class="pote" id="pote4">
+            <h2>Pote 4</h2>
+            <input type="text" id="pote4_1" placeholder="Pessoa 1"><br>
+            <input type="text" id="pote4_2" placeholder="Pessoa 2"><br>
+        </div>
+        <div class="pote" id="pote5">
+            <h2>Pote 5</h2>
+            <input type="text" id="pote5_1" placeholder="Pessoa 1"><br>
+            <input type="text" id="pote5_2" placeholder="Pessoa 2"><br>
+        </div>
+    </div>
+    </br>
+    <button onclick="sortearTimes()">
+        <h2>Sortear Times</h2>
+    </button>
+    <h1>Sem choro, os times serão...</h1>
+    <div class="team-container">
+        <div class="team hidden teste1" id="time1">
+            <h2>Time 1</h2>
+            <ul></ul>
+        </div>
+        <div class="team hidden teste2" id="time2">
+            <h2>Time 2</h2>
+            <ul></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
